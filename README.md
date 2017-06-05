@@ -16,19 +16,33 @@ about the high, low, and precipitation for given days and across all the days.
 API documentation
 ------
 returns all data: /weather/all
+
 returns data for a given day: /weather/day/{dayNum}
+
 returns the high for a given day: /weather/day/{dayNum}/high
+
 returns the low for a given day: /weather/day/{dayNum}/low
+
 returns the precipitation for a given day: /weather/day/{dayNum}/precipitation
+
 returns the temperature spread between high and low for a given day: /weather/day/{dayNum}/spread
+
 returns the minimum high across all days: /weather/high/min
+
 returns the maximum high across all days: /weather/high/max
+
 returns the minimum low across all days: /weather/low/min
+
 returns the maximum low across all days: /weather/low/max
+
 returns the minimum temperature spread across all days: /weather/spread/min
+
 returns the maximum temperature spread across all days: /weather/spread/max
+
 returns the minimum precipitation across all days: /weather/precipitation/min
+
 returns the maximum precipitation across all days: /weather/precipitation/max
+
 returns the total precipitation across all days: /weather/precipitation/total
 
 
